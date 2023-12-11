@@ -1,5 +1,8 @@
 # tic-tac-toe
 
+## Details
+[Assignment](https://hub.generalassemb.ly/learn/course/front-end-fundamentals-21-parent-us-online-wc-04-december-2023-06-march-2024-201494/building-a-browser-game/building-a-browser-game)
+
 ## MVP (Minimum viable product)
 
 - Display an empty tic-tac-toe board when the page is initially displayed. 
@@ -66,3 +69,4 @@ Typically, pseudocode does not have to be as detailed as the following - it is h
 6) Handle a player clicking the replay button:
   6.1) Do steps 4.1 (initialize the state variables) and 4.2 (render).
 ```
+
