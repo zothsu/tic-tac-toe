@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* viewport units: vh (viewport height), vw, vmin (smallest between vh & vw) */
+  height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  font-size: 4vmin;
+  color: darkgrey;
+  letter-spacing: 1vmin;
+  padding: 2vmin;
+}
+
+h1 {
+  color: grey;
+  font-size: 3vmin;
+  padding: 3vmin;
+}
+
+
+#board {
+  display: grid;
+  grid-template-columns: repeat(3, 10vmin);
+  grid-template-rows: repeat(3, 10vmin);
+  margin-top: -4vmin;
+}
+
+#board>div {
+  border: 0.1vmin, 0;
+  border-color: grey;
+  border-style: solid;
+}
+
+#board>div:hover {
+  background-color: pink;
+}
+
+button {
+  margin-top: 4vmin;
+  padding: 2vmin;
+  font-size: 2vmin;
+  border-radius: 4vmin;
+  border: 1vmin solid pink;
+  color: grey;
+}
